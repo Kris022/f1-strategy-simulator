@@ -1,31 +1,40 @@
 # Formula 1 Strategy Simulation
-The simulation is used to evaluate hypothetical race scenarios, allowing the assessment of various strategies and their impact on the race outcome.
 
-Effective strategy plays a vital role in securing victory in Formula 1 races, and as regulations impose greater constraints on teams, the importance of simulation becomes increasingly apparent. This implementation of the strategy simulation tool, builds upon previous research by introducing techniques for parameterising the model and visualizing the results. The implementation also introduces an innovative approach to overtaking that considers probabilities, departing from the conventional notion that superior pace guarantees successful overtakes. By addressing these key elements, this project contributes to enhancing strategic decision-making in the sport.
+The Formula 1 Strategy Simulation is a powerful tool designed to evaluate hypothetical race scenarios, providing a detailed assessment of various strategies and their potential impact on the race outcome.
+
+## Motivation
+
+Effective strategy is a crucial factor in securing victory in Formula 1 races, and with increasing regulations imposing constraints on teams, the importance of simulations becomes even more apparent. This implementation of the strategy simulation tool builds upon previous research by introducing advanced techniques for parameterization of the model and visualization of the results. Additionally, it presents an innovative approach to overtaking, incorporating probabilities rather than solely relying on superior pace, thus contributing to enhancing strategic decision-making in the sport.
 
 ## Features
-Fuel Mass Reduction Model: Simulates fuel consumption throughout the race, affecting the car's weight and performance.
 
-Tyre Wear Model: Simulation currently includes three different dry tyre compounds with individual wear models, accurately reflecting tyre degradation over laps. Users are given ability to parametrise each tyre compound individually and easily create new ones.
+The Formula 1 Strategy Simulation offers a wide array of features to accurately replicate real-world race scenarios:
 
- Pit Stop Considerations: Factors affecting pit stops, such as time spent on pit lane drive thru, time spent performing the pit stop as well as unexpected random factors are taken into account.
+1. **Fuel Mass Reduction Model**: Simulates fuel consumption throughout the race, dynamically affecting the car's weight and performance, providing a realistic experience for strategists.
 
-Starting Performance Model: The simulation models the impact of various factors on a driver's starting performance, such as driver’s starting position.
+2. **Tyre Wear Model**: The simulation includes three different dry tyre compounds, each with its individual wear model, precisely reflecting tire degradation over laps. Users have the flexibility to parameterize each tyre compound individually and effortlessly create new ones.
 
- Chance-Based Overtaking Model: An innovative overtaking model that considers both pace advantage and chance, determining the likelihood of successful overtaking manoeuvres.
+3. **Pit Stop Considerations**: Factors affecting pit stops, such as time spent on pit lane drive-thru, time spent performing the pit stop, and unexpected random factors, are taken into account, adding depth to strategic planning.
 
-Parameter Obtaining Methods: The simulation comes with a set of functions for used to obtain parameters based on historical race data, allowing for fine tuning of the simulation's accuracy.
+4. **Starting Performance Model**: The simulation accurately models the impact of various factors on a driver's starting performance, including the driver's starting position, providing insights into initial race dynamics.
 
-Race Time Line Graph: Visualizes race times to identify key events like pit stops, mistakes, and strong performance of drivers.
+5. **Chance-Based Overtaking Model**: An innovative overtaking model that considers both the pace advantage and chance, providing a realistic assessment of the likelihood of successful overtaking maneuvers.
 
-Driver position evolution chart: Displays each driver's position throughout the race, making overtaking manoeuvres and overall performance easy to analyse.
+6. **Parameter Obtaining Methods**: The simulation includes a set of functions for obtaining parameters based on historical race data, allowing for fine-tuning of the simulation's accuracy to match real-world scenarios.
 
-Validation with Real Race Data: The simulation provides a set of function for easy comparison its results with real race data.
+7. **Race Time Line Graph**: Visualizes race times, enabling users to identify key events such as pit stops, mistakes, and exceptional driver performances throughout the race.
 
+8. **Driver Position Evolution Chart**: Displays each driver's position throughout the race, making overtaking maneuvers and overall performance easy to analyze and comprehend.
+
+9. **Validation with Real Race Data**: The simulation provides a set of functions for easy comparison of its results with real race data, enhancing its credibility and reliability. We credit FastF1 as the source of real-world data. For more information, refer to [FastF1 Documentation](https://docs.fastf1.dev/).
 
 ## Built With
- - Python
- - NumPy
- - Matplotlib
+
+The Formula 1 Strategy Simulation is built using the following technologies:
+
+- Python
+- NumPy
+- Matplotlib
 
 ## Demo
+
