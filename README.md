@@ -2,15 +2,15 @@
 
 ## Features
 
-1. **Fuel Mass Reduction Model**
-2. **Tyre Wear Model**
-3. **Pit Stop Considerations**
-4. **Starting Performance Model**
-5. **Chance-Based Overtaking Model**
-6. **Parameter Obtaining Methods**
-7. **Race Time Line Graph**
-8. **Driver Position Evolution Chart**
-9. **Validation with Real Race Data**
+* **Fuel Mass Reduction Model**
+* **Tyre Wear Model**
+* **Pit Stop Considerations**
+* **Starting Performance Model**
+* **Chance-Based Overtaking Model**
+* **Parameter Obtaining Methods**
+* **Race Time Line Graph**
+* **Driver Position Evolution Chart**
+* **Validation with Real Race Data**
    
 ## Built With
 
