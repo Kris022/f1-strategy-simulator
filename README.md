@@ -1,14 +1,12 @@
 # Formula 1 Strategy Simulation
 
-The Formula 1 Strategy Simulation is a powerful tool designed to evaluate hypothetical race scenarios, providing a detailed assessment of various strategies and their potential impact on the race outcome.
+This Formula 1 Strategy Simulation was designed to evaluate hypothetical race scenarios, providing a detailed assessment of various strategies and their potential impact on the race outcome.
 
 ## Motivation
 
 Effective strategy is a crucial factor in securing victory in Formula 1 races, and with increasing regulations imposing constraints on teams, the importance of simulations becomes even more apparent. This implementation of the strategy simulation tool builds upon previous research by introducing advanced techniques for parameterization of the model and visualization of the results. Additionally, it presents an innovative approach to overtaking, incorporating probabilities rather than solely relying on superior pace, thus contributing to enhancing strategic decision-making in the sport.
 
 ## Features
-
-The Formula 1 Strategy Simulation offers a wide array of features to accurately replicate real-world race scenarios:
 
 1. **Fuel Mass Reduction Model**: Simulates fuel consumption throughout the race, dynamically affecting the car's weight and performance, providing a realistic experience for strategists.
 
@@ -29,8 +27,6 @@ The Formula 1 Strategy Simulation offers a wide array of features to accurately 
 9. **Validation with Real Race Data**: The simulation provides a set of functions for easy comparison of its results with real race data, enhancing its credibility and reliability. We credit FastF1 as the source of real-world data. For more information, refer to [FastF1 Documentation](https://docs.fastf1.dev/).
 
 ## Built With
-
-The Formula 1 Strategy Simulation is built using the following technologies:
 
 - Python
 - NumPy
