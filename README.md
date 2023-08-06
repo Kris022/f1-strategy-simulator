@@ -1,5 +1,5 @@
 # Formula 1 Strategy Simulation
-
+See demo video in the [Demo](#my-section) section below.
 ## Features
 
 - **Fuel Mass Reduction Model**: Simulates fuel consumption throughout the race, dynamically affecting the car's weight and performance, providing a realistic experience for strategists.
@@ -28,6 +28,7 @@
 - Matplotlib
 - FastF1 was used as the source of real-world data [FastF1 Documentation](https://docs.fastf1.dev/).
 
+<a name="my-section"></a>
 ## Demo
 
 ### Simulated driver data only
