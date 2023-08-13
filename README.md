@@ -18,7 +18,7 @@ See demo video in the [Demo](#my-section) section below.
 
 - **Driver Position Evolution Chart**: Displays each driver's position throughout the race, making overtaking maneuvers and overall performance easy to analyze and comprehend.
 
-- **Validation with Real Race Data**: The simulation provides a set of functions for easy comparison of its results with real race data. FastF1 is a python library and is the source of real-world data for this project. [FastF1 Documentation](https://docs.fastf1.dev/).
+- **Validation with Real Race Data**: The simulation provides a set of functions for easy comparison of its results with real race data. FastF1 is a python library and is the main source of real-world data for this project [FastF1 Documentation](https://docs.fastf1.dev/).
 
    
 ## Built With
@@ -26,7 +26,6 @@ See demo video in the [Demo](#my-section) section below.
 - Python
 - NumPy
 - Matplotlib
-- FastF1 was used as the source of real-world data [FastF1 Documentation](https://docs.fastf1.dev/).
 
 <a name="my-section"></a>
 ## Demo
